@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = [0,1,2,3,4,5]
-y = [3,8,6,6,7,3]
+y = [8,4,8,8,3,9]
 
 mymodel = np.poly1d(np.polyfit(x, y, 3))
 print(mymodel)
